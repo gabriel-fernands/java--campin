@@ -1,16 +1,15 @@
 package com.example.maratona_java.operadores;
 
-public class Aula22Operadores08 {
+public class Aula23Operadores09 {
     public static void main(String[] args) {
-int count = 0;
+        int[] idade = new int[3];
+        idade[0] = 21;
+        idade[1] = 31;
+        idade[2] = 41;
 
-while (count < 10){
-    System.out.println(++count);
-
-}
-        for (int i = 0; i < 10; i++) {
-            System.out.println("For " +i);
-        }
+        System.out.println(idade[0]);
+        System.out.println(idade[1]);
+        System.out.println(idade[2]);
 
     }
 
